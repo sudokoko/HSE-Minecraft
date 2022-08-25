@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSE Minecraft</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav>
+    <a id="logo"  style="margin-right: auto;">
+    <img src="assets/goldlogo.jpeg" alt="logo" id="logo-png" style="height: 65px !important;">
+    </a>
+    <img src="assets/discordlogo.jpeg" alt="" class="discord-img"> 
+    <a class="nav-text border" href="https://discord.gg/nCPvdW73N8" target="_blank">Discord</a>
+    <a class="nav-text border" href="#" target="_blank">Questions?</a>
+    <a class="nav-text border" href="#">Help</a>
+    <a class="nav-text" id="IPAddress">IP Address: </a>
+    <a class="nav-text" id="copyIP">hse.tosu.tk</a>
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                var $temp = $("<input>");
+                var $url = "hse.tosu.tk";
+           
+                    $('#btn').click(function() {
+                    $("body").append($temp);
+                $temp.val($url).select();
+                document.execCommand("copy");
+                $temp.remove();
+
+            });
+            });
+        </script>
+    
+    <input id="btn" type="button" href="#" value="Copy IP"/>
+
+</nav>
+    <div>
+<h1>HSE Minecraft Survival Server</h1>
+        </div>
+    </div>
+<div id="img-shader-div">
+    <p id="img-shader-p"> 
+        <img src="assets/landscape.jpg" alt=""  class="center">
+    </p>
+</div>
+<div class="welcome">Welcome the the HSE Minecraft Server Webiste! Here you can find all information about the gamemodes, who can join, and how to join </div>
+    <div class="how2join">
+        <div>
+            The server IP Address is listed here: "<a class="ipaddresslink" style="color: gold;">hse.tosu.tk</a>". you can alternitivley find it at the  <a href="#">top of the page</a> and click the button to copy the Address.
+        </div>
+    </div>
+<!-- <div id="rules">Some big rules are listed below</div>
+    <div id="rules-orderedlist">
+        <div class="rules-list-items">Be cool with others</div>
+        <div class="rules-list-items">No slurs or politics at all.</div>
+        <div class="rules-list-items">Do not let someone else outside of hse school join unlesss allowed otherwise by a mod or admin.</div>
+    </div>
+
+<div> -->
+    
+</div>
+</body>
+</html>

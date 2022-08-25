@@ -1,0 +1,193 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Pacifico&display=swap');
+/* 
+font-family: 'Bungee', cursive;
+font-family: 'Pacifico', cursive;
+*/
+
+
+/* CSS reset */
+a:visited { 
+    text-decoration: none; 
+    color: rgb(255, 238, 238); 
+}
+a:hover { text-decoration: none; color:rgb(167, 167, 167); }
+a:focus { text-decoration: none; color:rgb(255, 0, 0); }
+a:active { text-decoration: none; color: gold; }
+
+*,*::before,*::after{
+  box-sizing: border-box;  
+  margin: 0%;
+  padding: 0%;
+}  
+
+
+html{
+    background-color: #7b7b7b;
+}    
+body {
+    font-family: Noto Sans,sans-serif;
+    background: #545454;
+}    
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+ }   
+h1{
+    color: rgb(255, 216, 73);
+    text-align: center;
+    padding: .7ch;
+    font-size: 80px;
+    font: minecrafter;
+    background-color: rgb(93, 93, 93);
+    margin: 0%;
+    border-bottom: .5ch solid rgb(59, 59, 59);
+    width: 100%;
+}    
+h2{
+    color: lightblue;
+}    
+#rules{
+    width: 30ch;
+    color: red;
+    border: 3ch solid #27285C;
+    border-radius: 4ch;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    font-size: 2ch;
+    text-align: left;
+    margin: 0%;
+    margin-top: 3ch;
+    padding: 2ch 2ch;
+    background-color: #C8C9E1;
+}    
+#rules-orderedlist{
+    background: #5E60DB;
+    border: 2ch solid #27285C;
+    border-radius: 4ch;
+    border-top-left-radius: 0%;
+    padding: 20px;
+    
+}    
+#rules-list-items{font-size: xx-large;}
+.welcome{
+    padding: 1ch 1ch;
+    margin: 2ch;
+    margin-left: 0%;
+    height: auto; 
+    width: 60%; 
+    border: 4px solid gold;
+    border-top-right-radius: 4ch;
+    border-top-left-radius: 0ch;
+    border-bottom-right-radius: 4ch;
+    border-bottom-left-radius: 0ch;
+    background-color: gray;
+    font-size: 4ch;
+    color: rgb(255, 255, 255);
+}   
+.how2join{
+    color: gold;
+} 
+.selection-redirect-menu{
+    text-align: center;
+    background-color: black;
+    padding: 2ch;
+    margin: 2ch;
+}    
+.center{
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    width: 100%;
+}    
+.info{
+    font-size: 4ch;
+    line-height: 1ch;
+    max-lines: 1;
+    background-color: black;
+    color: white;
+}    
+.info_server-ip{color: white;}
+#copyIP{
+  color: white;  
+  padding: 0%;
+  margin-left: 0%;
+  margin-right: 2ch;
+  color: gold;
+}  
+#IPAddress{
+  padding-right: 0%;  
+  margin-right: 1ch;
+}  
+.logo-png{
+    margin-right: auto;
+    margin-left: 4%;
+}    
+.logo{
+    margin-right: auto;
+    margin-left: 0%;
+}    
+.border{
+    border: 2px solid gray;
+    border-radius: 1ch;
+    margin: 1%;
+    border-color: gold;
+    background-color: black;
+}    
+
+
+
+
+
+nav{
+    Background-color: #2c3639;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-text{ font-size: xx-large; }
+  
+nav a{
+    color: #fcfcfc;
+    text-decoration: none;
+    padding: 5px 15px;
+    /* font-family: 'Bungee', cursive; */
+}
+
+#btn{
+    background-color: #4CAF50; /* Green */
+    /* border: none; */
+    /* color: white; */
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.2s;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 2px solid #ffe16a; /* Green */
+    border-radius: 2ch;
+}
+
+#btn:hover {
+    background-color: #707070; /* Green */
+    color: gold;
+}
+.discord-img{
+    height: 65px;
+    border: 2px solid gold;
+    border-radius: 2ch;
+}
+.how2join{
+    color: black;
+    background-color: gray;
+    border: 4px solid gray;
+    border-radius: 2ch;
+    font-size: 3ch;
+    padding: 2ch;
+}
+.ipaddresslink{
+    color: red;
+}
